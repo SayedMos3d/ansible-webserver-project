@@ -1,0 +1,9 @@
+# Ignore personal inventory
+inventory/hosts.ini
+
+# Ignore Ansible retry files
+*.retry
+
+# Ignore Python cache
+__pycache__/
+*.pyc

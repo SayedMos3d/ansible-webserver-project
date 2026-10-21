@@ -1,0 +1,10 @@
+---
+- name: Deploy Nginx Web Server
+  hosts: webservers
+  become: true
+
+  vars:
+    project_title: "My First Ansible Project!"
+
+  roles:
+    - webserver
